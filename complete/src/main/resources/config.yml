@@ -1,0 +1,7 @@
+thundra:
+  apiKey: fbc0218a-0880-40f6-b5e6-42773898f252
+  agent:
+    application:
+      name: spring-demo
+      stage: dev
+      version: 2.6.28
