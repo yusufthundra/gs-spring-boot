@@ -1,6 +1,7 @@
 package com.example.springboot;
 
 import java.util.Arrays;
+import java.util.Locale;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -25,6 +26,7 @@ public class Application {
 			Arrays.sort(beanNames);
 			for (String beanName : beanNames) {
 				System.out.println(beanName);
+				beanName.toLowerCase(Locale.ENGLISH);
 			}
 
 		};
